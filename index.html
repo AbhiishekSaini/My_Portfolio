@@ -18,18 +18,18 @@
   <!-- <div class="cursor_dot" data-cursor-dot></div>
   <div class="cursor-outline" data-cursor-outline></div> -->
   <!--==================== STYLE SWITCHER ====================-->
-  <input type="radio" name="color" id="color-1" />
-  <input type="radio" name="color" id="color-2" />
-  <input type="radio" name="color" id="color-3" />
-  <input type="radio" name="color" id="color-4" />
-  <input type="radio" name="color" id="color-5" />
-  <input type="radio" name="color" id="color-6" />
-  <input type="radio" name="color" id="color-7" />
-  <input type="radio" name="color" id="color-8" />
-  <input type="radio" name="color" id="color-9" />
-  <input type="radio" name="color" id="color-10" />
-  <input type="checkbox" id="toggler" />
-  <input type="checkbox" id="day-night" />
+  <input type="radio" name="color" id="color-1"  aria-label="color-1"/>
+  <input type="radio" name="color" id="color-2" aria-label="color-2"/>
+  <input type="radio" name="color" id="color-3" aria-label="color-3 />
+  <input type="radio" name="color" id="color-4" aria-label="color-4" />
+  <input type="radio" name="color" id="color-5" aria-label="color-5" />
+  <input type="radio" name="color" id="color-6"  aria-label="color-6"/>
+  <input type="radio" name="color" id="color-7"  aria-label="color-7"/>
+  <input type="radio" name="color" id="color-8"  aria-label="color-8"/>
+  <input type="radio" name="color" id="color-9"  aria-label="color-9"/>
+  <input type="radio" name="color" id="color-10" aria-label="color-10"/>
+  <input type="checkbox" id="toggler"  aria-label="Toggle style switcher"/>
+  <input type="checkbox" id="day-night" aria-label="Toggle day/night mode"/>
 
   <div class="style__switcher">
     <label for="toggler" class="style__switcher-toggler">
@@ -61,7 +61,7 @@
   <header class="header">
     <nav class="nav container">
       <a href="index.html" class="nav__logo">Abhishek</a>
-      <input type="checkbox" id="nav-toggler">
+      <input type="checkbox" id="nav-toggler" aria-label="Toggle navigation"/> 
       <label for="nav-toggler" class="nav__toggle">
         <i class="fa-solid fa-duotone fa-bars"></i>
       </label>
@@ -104,9 +104,9 @@
           <span class="home__small">Hello &#128507;</span>
           <h1 class="home__title">
             <span>I'm</span> Abhishek Saini <br />
-            a <span>Web Developer</span>
+            a <span> Developer</span>
             <p class="home__description">I'm a dedicated web developer with a creative flair.
-              I've since honed my skills in front-end and back-end development.
+              I've since honed my skills in front-end and back-end development .
             </p>
             <div class="home__btns">
               <a href="#contact" class="btn">Hire Me</a>
@@ -132,11 +132,11 @@
         </div>
         <div class="about__content">
           <h2 class="section__title" data-title="Who am i?">
-            I'm Abhishek Saini , a Web Developer.
+            I'm Abhishek Saini , a  Developer.
 
           </h2>
           <p class="about__decscription">
-            I'm a full stack developer.
+            I'm a developer.
             Student of Computer Science Engineering at Government Engineering College in Jhalawar, India. I appreciate
             simplifying complex problems with coding. I am currently working on improving my problem-solving skills in
             data structures and algorithms. Looking forward to collaborating on various open-source projects. In my
@@ -167,23 +167,22 @@
             </li>
           </ul>
           <div class="about__bottom">
-            <a href="Abhishek_resume.pdf" class="btn">Download Cv</a>
+            <a href="Abhishek_resume.pdf" class="btn" target="_blank">Download Cv</a>
             <div class="about__social-links">
-              <a href="https://github.com/Abhi45op" target="_blank" class="about__social-link">
+              <a href="https://github.com/AbhiishekSaini" target="_blank" rel="noopener noreferrer" class="about__social-link" title="GitHub Profile">
                 <i class="fa-brands fa-github"></i>
               </a>
-              <a href="https://www.instagram.com/its__abhiishek?igsh=MTdwNDQxOXp1amZsbQ%3D%3D&utm_source=qr"
-                class="about__social-link" target="_blank">
+              <a href="https://www.instagram.com/its__abhiishek?igsh=MTdwNDQxOXp1amZsbQ%3D%3D&utm_source=qr"  rel="noopener noreferrer"aria-label="instagram Profile" class="about__social-link" target="_blank">
                 <i class="fa-brands fa-instagram"></i>
               </a>
-              <a href="" class="about__social-link">
+              <a href="" class="about__social-link" target="_blank " rel="noopener noreferrer " class="about__social-link" title="Facebook Profile ">
                 <i class="fa-brands fa-square-facebook"></i>
               </a>
-              <a href="https://www.linkedin.com/in/abhishek-saini-10231a277/" target="_blank"
+              <a href="https://www.linkedin.com/in/abhishek-saini-10231a277" target="_blank" rel="noopener  noreferrer" title="linkedin Profile "
                 class="about__social-link">
                 <i class="fa-brands fa-linkedin"></i>
               </a>
-              <a href="https://x.com/abhiisheksaini1?s=11" class="about__social-link">
+              <a href="https://x.com/abhiisheksaini1?s=11" class="about__social-link" target="_blank" rel="noopener noreferrer" title="x Profile">
                 <i class="fa-brands fa-square-x-twitter"></i>
 
               </a>
@@ -256,6 +255,25 @@
                   commitment to learning.</p>
               </div>
             </div>
+            <div class="resume__item">
+              <div class="resume__header">
+                <h3 class="resume__subtitle">Intership Training - Data Logger/MIS and Railway Systems</h3>
+                <span class="resume__icon">+</span>
+              </div>
+              <div class="resume__content">
+                <div class="resume__date-title">
+                  <h3 class="resume__title">Western Central Railway, Kota Division
+                  </h3>
+                  <span class="resume__date">30 Days</span>
+                </div>
+                <p class="resume__description">Gained practical insights into data loggers, Management Information
+                  Systems (MIS), auto exchange systems, Railnet and the
+                  operational framework of railway stations. This training enhanced my understanding of railway
+                  technology infrastructure and data management within the Kota division.
+
+                </p>
+              </div>
+            </div>
 
           </div>
         </div>
@@ -265,6 +283,34 @@
         <div class="resume__group">
           <h3 class="resume__heading">Experience</h3>
           <div class="resume__items">
+            <div class="resume__item">
+              <div class="resume__header">
+                <h3 class="resume__subtitle">Junior technical/functional Consultant</h3>
+                <span class="resume__icon">+</span>
+              </div>
+              <div class="resume__content">
+                <div class="resume__date-title">
+                  <h3 class="resume__title">Infostorm Technologies Private Limited
+                  </h3>
+                  <span class="resume__date">Currently working</span>
+                </div>
+                <p class="resume__description">Gained hands-on experience in ERP Development,contributed to ERP development in Microsoft Dynamics 365 Business Central. Assisted as both Technical Consultant and Functional Consultant, ensuring end-to-end understanding of business and technical workflows.</p>
+              </div>
+            </div>
+             <div class="resume__item">
+              <div class="resume__header">
+                <h3 class="resume__subtitle">Intership-Data Science</h3>
+                <span class="resume__icon">+</span>
+              </div>
+              <div class="resume__content">
+                <div class="resume__date-title">
+                  <h3 class="resume__title">HexSoftwares
+                  </h3>
+                  <span class="resume__date">2 Months</span>
+                </div>
+                <p class="resume__description">Worked on real-world data science projects involving data cleaning, analysis, visualization, and model building. Gained hands-on experience with Python, Pandas, NumPy, and machine learning techniques to derive insights from datasets. Contributed to developing predictive models.</p>
+              </div>
+            </div>
             <div class="resume__item">
               <div class="resume__header">
                 <h3 class="resume__subtitle">Intership-Web Devlopment</h3>
@@ -278,8 +324,7 @@
                 </div>
                 <p class="resume__description">At Wayug,A leading software development company based in Delhi, dedicated
                   to transforming ideas into innovative, tailored solutions. Specializing in cutting-edge software
-                  across various domains, Wayug creates customized business applications that empower clients to achieve
-                  their goals with advanced, reliable technology.</p>
+                  across various domains, business applications that empower clients to achieve goals with advanced, reliable technology.</p>
               </div>
             </div>
 
@@ -300,7 +345,7 @@
               </div>
             </div>
 
-            <div class="resume__item">
+            <!-- <div class="resume__item">
               <div class="resume__header">
                 <h3 class="resume__subtitle">Intership Training - Data Logger/MIS and Railway Systems</h3>
                 <span class="resume__icon">+</span>
@@ -318,7 +363,7 @@
 
                 </p>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -721,23 +766,23 @@
       <p class="footer__copyright">&copy; 2024 Abhishek.All Rights Reserved</p>
 
       <div class="footer__social-links">
-        <a href="https://github.com/Abhi45op" target="_blank" class="footer__social-link">
-          <i class="fa-brands fa-github"></i>
-        </a>
-        <a href="https://www.instagram.com/its__abhiishek?igsh=MTdwNDQxOXp1amZsbQ%3D%3D&utm_source=qr"
-          class="footer__social-link" target="_blank">
-          <i class="fa-brands fa-instagram"></i>
-        </a>
-        <a href="" class="footer__social-link">
-          <i class="fa-brands fa-square-facebook"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/abhishek-saini-10231a277/" target="_blank" class="footer__social-link">
-          <i class="fa-brands fa-linkedin"></i>
-        </a>
-        <a href="https://x.com/abhiisheksaini1?s=11" target="_blank" class="footer__social-link">
-          <i class="fa-brands fa-square-x-twitter"></i>
+        <a href="https://github.com/AbhiishekSaini" target="_blank" rel="noopener noreferrer" class="about__social-link" title="GitHub Profile">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://www.instagram.com/its__abhiishek?igsh=MTdwNDQxOXp1amZsbQ%3D%3D&utm_source=qr"  rel="noopener noreferrer"aria-label="LinkedIn Profile" class="about__social-link" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+              <a href="" class="about__social-link" target="_blank " rel="noopener noreferrer " class="about__social-link" title="Facebook Profile ">
+                <i class="fa-brands fa-square-facebook"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/abhishek-saini-10231a277" target="_blank" rel="noopener noreferrer" title="linkedin Profile"
+                class="about__social-link">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a href="https://x.com/abhiisheksaini1?s=11" class="about__social-link" target="_blank" rel="noopener noreferrer" title="x Profile">
+                <i class="fa-brands fa-square-x-twitter"></i>
 
-        </a>
+              </a>
       </div>
     </div>
   </footer>
